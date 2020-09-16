@@ -1,0 +1,908 @@
+/*================ Normal desktop :992px.==================== */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+	.header-top-left p {
+		letter-spacing: 0
+	}
+	.header-top-left p i {
+		height: 20px;
+		width: 20px;
+		line-height: 20px
+	}
+	.header-promo-info h3 {
+		font-size: 17px
+	}
+	.find-box {
+		background: #fff url(../img/find-box-bg.png) no-repeat scroll -45px 0px
+	}
+	.single-service {
+		padding: 25px
+	}
+	.service-text h3 {
+		font-size: 19px
+	}
+	.promo-box-right h3 {
+		font-size: 30px
+	}
+	.call-box-inner {
+		width: 80%
+	}
+	.product-text h3 {
+		font-size: 17px;
+		letter-spacing: 0
+	}
+	.login-box {
+		width: 55%
+	}
+    .brochures a i{
+        display: none
+    }
+}
+
+
+/*================ Tablet desktop :768px.==================*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.header-top-left:before {
+		right: 0
+	}
+	.gauto-responsive-menu {
+		display: block;
+		width: 50%;
+		left: 0
+	}
+	.header-action {
+		display: none
+	}
+	.mainmenu {
+		display: none
+	}
+	.search-box {
+		display: none
+	}
+	.main-search-right {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: end;
+		margin-top: 0
+	}
+	.header-cart-box #dropdownMenu1 {
+		position: relative;
+		z-index: 999
+	}
+    .gauto-about-area{
+        padding-bottom: 20px
+    }
+	.gauto-mainmenu-area {
+		padding: 15px 0;
+        min-height: 60px
+	}
+    .header-cart-box{
+        position: absolute;
+        right: 20px;
+        top: 0
+    }
+	.slicknav_btn {
+		margin-top: -27px
+	}
+	.slider-text h2 {
+		font-size: 50px
+	}
+	.gauto-main-slide {
+		height: 460px
+	}
+	.find-box {
+		background: #fff url(../img/find-box-bg.png) no-repeat scroll -120px 0
+	}
+	.find-text {
+		margin-top: 25px
+	}
+	.find-text h3 {
+		font-size: 25px;
+	}
+	.find-form form p {
+		margin: 10px 0
+	}
+	.about-left h2 {
+		font-size: 35px
+	}
+	.site-heading {
+		width: 100%
+	}
+	.site-heading h2 {
+		font-size: 35px
+	}
+	.promo-box-right {
+		padding: 50px 0
+	}
+	.promo-box-right h3 {
+		font-size: 25px;
+		line-height: 35px
+	}
+	.offer-tabs .row .col-lg-4:last-child {
+		display: none
+	}
+	.gauto-blog-area .row .col-lg-4:last-child {
+		display: none
+	}
+	.offer-tabs .row .col-lg-4,
+	.gauto-blog-area .row .col-lg-4 {
+		width: 50%
+	}
+	.single-footer {
+		margin: 20px auto 20px;
+	}
+	.about-page-left h3,
+	.about-promo-text h3 {
+		font-size: 30px
+	}
+	.about-page-right {
+		margin-top: 30px
+	}
+	.about-page-right img {
+		width: 100%
+	}
+	.about-promo-text {
+		width: 80%
+	}
+	.single-service {
+		margin: 30px 0 0 0;
+		border: 0px solid #fff;
+		padding: 30px 15px
+	}
+	.service-text h3 {
+		font-size: 17px;
+		letter-spacing: 0
+	}
+	.service-icon {
+		width: 50px
+	}
+	.service-menu {
+		padding: 20px
+	}
+	.service-page-banner {
+		padding: 50px 30px
+	}
+	.service-page-banner h3 {
+		font-size: 22px !important;
+		line-height: 32px !important;
+	}
+	.service-details-right {
+		margin-top: 30px
+	}
+	.faq_accordian_header>a.collapsed:before {
+		width: 14%
+	}
+	.product-details-text {
+		margin-top: 30px
+	}
+	.faq_accordian_header>a:before {
+		width: 14%
+	}
+	.car-listing-right {
+		margin-top: 30px
+	}
+	.paging_status {
+		-webkit-box-pack: end;
+		-ms-flex-pack: end;
+		justify-content: end
+	}
+	.propertu-page-shortby {
+		display: none
+	}
+	.offer-action:after {
+		width: 62%
+	}
+	.car-booking-image img {
+		width: 100%
+	}
+	.car-booking-right {
+		margin-top: 30px
+	}
+	.booking-right {
+		margin-top: 30px
+	}
+	.single-gallery {
+		width: 80%;
+		margin: 30px auto 0
+	}
+	.product-page-right {
+		margin-top: 30px
+	}
+	.order-summury-box {
+		margin-top: 30px
+	}
+	.blog-page-right {
+		margin-top: 30px
+	}
+	.notfound-box {
+		width: 80%
+	}
+	.notfound-box h2 {
+		font-size: 90px;
+		line-height: 90px
+	}
+	.notfound-box h3 {
+		font-size: 26px
+	}
+	.login-box {
+		width: 70%
+	}
+	.contact-right {
+		margin-top: 30px
+	}
+	.newsletter_box form {
+		width: 100%
+	}
+	.site-logo {
+		margin-top: 5px
+	}
+}
+
+
+/*================== small mobile :320px. ===================*/
+
+@media (max-width: 767px) {
+	.header-top-left:before {
+		display: none
+	}
+	.header-top-left {
+		display: none
+	}
+	.header-top-right {
+		text-align: center
+	}
+	.gauto-responsive-menu {
+		display: block;
+	}
+	.site-logo {
+		text-align: center;
+		width: 55%;
+		margin: 0 auto;
+	}
+	.site-logo img {
+		width: 100%
+	}
+    .gauto-about-area{
+        padding-bottom: 50px
+    }
+	.header-promo,
+	.header-action {
+		display: none
+	}
+	.gauto-header-top-area {
+		margin-bottom: 0
+	}
+	.mainmenu {
+		display: none
+	}
+	.gauto-header-top-area {
+		background: #fff none repeat scroll 0 0;
+		border-bottom: 1px solid #eee
+	}
+    .brochures a i{
+        display: none
+    }
+	.header-top-left p,
+	.header-top-right>a,
+	.header-top-right>.dropdown button {
+		color: #001238
+	}
+	.header-top-left p i {
+		background: #ec3323 none repeat scroll 0 0;
+		color: #fff
+	}
+	.search-box {
+		display: none
+	}
+	.header-cart-box #dropdownMenu1 {
+		float: right
+	}
+    .service-text h3{
+        font-size: 19px
+    }
+	.header-cart-box {
+		width: 95%;
+	}
+	.login.dropdown {
+		position: relative;
+		z-index: 999999;
+		width: 100%;
+	}
+	.gauto-mainmenu-area {
+		min-height: 50px
+	}
+	.header-cart-box .dropdown.show .cart-dropdown {
+		margin-top: 35px;
+		min-width: 260px
+	}
+	.cart-btn-pro-img {
+		width: 60px;
+		margin-right: 10px
+	}
+	.cart-btn-pro-cont {
+		overflow: hidden
+	}
+	.slider-text {
+		width: 100%;
+		text-align: center;
+		margin: 0 auto
+	}
+	.slider-text p {
+		font-size: 20px
+	}
+	.slider-text h2 {
+		font-size: 35px
+	}
+	.gauto-main-slide {
+		height: 380px
+	}
+	.find-box {
+		background: #fff none repeat scroll 0 0
+	}
+	.find-text {
+		margin-top: 0
+	}
+	.find-text h3 {
+		color: #001238;
+		text-align: center;
+		font-size: 25px
+	}
+	.find-form {
+		margin-top: 5px
+	}
+	.find-form form p {
+		margin-top: 15px;
+		margin-bottom: 0
+	}
+	.gauto-find-area {
+		margin-top: -55px
+	}
+	.about-left h2 {
+		font-size: 30px
+	}
+	.about-list ul {
+		-webkit-columns: 1;
+		-moz-columns: 1;
+		columns: 1
+	}
+	.signature-left {
+		width: 130px
+	}
+	.site-heading {
+		width: 100%
+	}
+	.site-heading h2 {
+		font-size: 30px
+	}
+	.promo-box-left {
+		display: none
+	}
+	.promo-box-right {
+		text-align: center
+	}
+	.promo-box-right h3 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	.promo-box-right a.gauto-btn {
+		margin-bottom: 0
+	}
+	#offerTab li {
+		display: block;
+		margin-bottom: 5px
+	}
+	#offerTab li a {
+		display: block !important
+	}
+	#offerTab li.nav-item a.nav-link.active:after,
+	#offerTab li.nav-item a.nav-link:after {
+		-webkit-transform: skewX(0);
+		transform: skewX(0)
+	}
+	#offerTab li.nav-item a.nav-link:hover:after {
+		-webkit-transform: skewX(0);
+		transform: skewX(0)
+	}
+	.call-box-inner {
+		width: 100%;
+		padding: 0 15px
+	}
+	.call-box h2 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	.single-footer {
+		margin: 20px 0
+	}
+	.copyright {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.footer-social ul {
+		text-align: center
+	}
+	.breadcromb-box h3 {
+		font-size: 30px
+	}
+	.about-page-left h3,
+	.about-promo-text h3 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	.about-page-right {
+		margin-top: 30px
+	}
+	.about-promo-text {
+		width: 100%
+	}
+	.service-details-right {
+		margin-top: 30px
+	}
+	.service-details-right h3,
+	.sidebar-widget h3 {
+		font-size: 22px;
+		line-height: 40px
+	}
+	.pad-right-sm {
+		padding-right: 15px
+	}
+	.pad-left-sm {
+		padding-left: 15px
+	}
+	.service-details-list ul {
+		width: 100%;
+		float: none;
+		margin: 0
+	}
+	.service-details-list.clearfix {
+		margin-top: 30px
+	}
+	.faq_accordian_header>a.collapsed:before {
+		width: 30%
+	}
+	.faq_accordian_header>a:before {
+		width: 30%
+	}
+	.car-listing-right {
+		margin-top: 30px
+	}
+	.propertu-page-shortby {
+		display: none
+	}
+	.car-booking-right {
+		margin-top: 30px
+	}
+	.car-booking-right h3,
+	.product-details-text h3 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	.car-features ul {
+		width: 50%;
+	}
+	.booking-right {
+		margin-top: 30px
+	}
+	.product-page-right,
+	.product-details-text {
+		margin-top: 30px
+	}
+	.product-text h3 {
+		font-size: 21px
+	}
+	.single-shop-page-btn {
+		display: block
+	}
+	.single-shop-page-btn ul {
+		margin-left: 0;
+		margin-top: 20px
+	}
+	.order-summury-box {
+		margin-top: 30px
+	}
+	.checkout-action {
+		text-align: left
+	}
+	.blog-text {
+		padding: 15px 10px
+	}
+	.blog-text ul li {
+		margin-right: 5px
+	}
+	.blog-page-left .blog-text h3 {
+		font-size: 22px;
+		line-height: 36px
+	}
+	.blog-page-right {
+		margin-top: 30px
+	}
+    .single-offers{
+        padding: 10px
+    }
+    .offer-text ul li{
+        margin: 0 1px
+    }
+    .offer-text ul li i{
+        margin-right: 1px
+    }
+	.single-comment-box.reply-comment {
+		padding-left: 30px
+	}
+	.gauto-leave-comment form input {
+		width: 100%;
+		margin-right: 0
+	}
+	.gauto-leave-comment form textarea {
+		width: 100%
+	}
+	.notfound-box {
+		width: 100%
+	}
+	.notfound-box h2 {
+		font-size: 70px;
+		line-height: 70px
+	}
+	.notfound-box h3 {
+		font-size: 22px
+	}
+	.login-box {
+		width: 100%;
+		padding: 30px 15px
+	}
+	.contact-right {
+		margin-top: 30px
+	}
+	.newsletter_box form {
+		width: 100%
+	}
+	.cart-btn-pro-cont h4,
+	.cart-btn-pro-cont h4 a {
+		font-size: 15px
+	}
+	.cart-btn-pro-cont span.price {
+		font-size: 14px
+	}
+}
+
+
+/* ======================Large Mobile :480px.================== */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header-top-left:before {
+		display: none
+	}
+	.header-top-left {
+		display: none
+	}
+	.header-top-right {
+		text-align: center
+	}
+	.gauto-responsive-menu {
+		display: block
+	}
+	.site-logo {
+		text-align: center;
+		width: 45%;
+		margin: 0 auto;
+	}
+    .gauto-about-area{
+        padding-bottom: 50px
+    }
+	.site-logo img {
+		width: 100%
+	}
+	.single-service {
+		padding: 20px
+	}
+	.service-text h3 {
+		font-size: 18px;
+		letter-spacing: 0
+	}
+	.header-promo,
+	.header-action {
+		display: none
+	}
+	.gauto-header-top-area {
+		margin-bottom: 0
+	}
+	.mainmenu {
+		display: none
+	}
+	.gauto-header-top-area {
+		background: #fff none repeat scroll 0 0;
+		border-bottom: 1px solid #eee
+	}
+	.header-top-left p,
+	.header-top-right>a,
+	.header-top-right>.dropdown button {
+		color: #001238
+	}
+	.header-top-left p i {
+		background: #ec3323 none repeat scroll 0 0;
+		color: #fff
+	}
+	.offer-action:after {
+		width: 62%
+	}
+	.service-details-image img {
+		width: 100%
+	}
+	.search-box {
+		display: none
+	}
+	.header-cart-box #dropdownMenu1 {
+		float: right
+	}
+	.header-cart-box {
+		width: 95%;
+	}
+	.login.dropdown {
+		position: relative;
+		z-index: 999999;
+		width: 100%;
+	}
+	.gauto-mainmenu-area {
+		min-height: 50px
+	}
+	.header-cart-box .dropdown.show .cart-dropdown {
+		margin-top: 35px;
+		min-width: 260px
+	}
+	.cart-btn-pro-img {
+		width: 60px;
+		margin-right: 10px
+	}
+	.cart-btn-pro-cont {
+		overflow: hidden
+	}
+	.slider-text {
+		width: 100%;
+		text-align: center;
+		margin: 0 auto
+	}
+	.slider-text p {
+		font-size: 20px
+	}
+	.slider-text h2 {
+		font-size: 35px
+	}
+	.gauto-main-slide {
+		height: 380px
+	}
+	.find-box {
+		background: #fff none repeat scroll 0 0
+	}
+	.find-text {
+		margin-top: 0
+	}
+	.find-text h3 {
+		color: #001238;
+		text-align: center;
+		font-size: 25px
+	}
+    .single-offers{
+        padding: 15px
+    }
+    .offer-text ul li{
+        margin: 0 3px
+    }
+    .offer-text ul li i{
+        margin-right: 3px
+    }
+	.find-form {
+		margin-top: 5px
+	}
+	.find-form form p {
+		margin-top: 15px;
+		margin-bottom: 0
+	}
+	.gauto-find-area {
+		margin-top: -55px
+	}
+	.about-left h2 {
+		font-size: 30px
+	}
+	.about-list ul {
+		-webkit-columns: 1;
+		-moz-columns: 1;
+		columns: 1
+	}
+	.signature-left {
+		width: 130px
+	}
+	.site-heading {
+		width: 100%
+	}
+	.site-heading h2 {
+		font-size: 30px
+	}
+	.promo-box-left {
+		display: none
+	}
+	.promo-box-right {
+		text-align: center
+	}
+	.promo-box-right h3 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	.promo-box-right a.gauto-btn {
+		margin-bottom: 0
+	}
+	#offerTab li {
+		display: block;
+		margin-bottom: 5px
+	}
+	#offerTab li a {
+		display: block !important
+	}
+	#offerTab li.nav-item a.nav-link.active:after,
+	#offerTab li.nav-item a.nav-link:after {
+		-webkit-transform: skewX(0);
+		transform: skewX(0)
+	}
+	#offerTab li.nav-item a.nav-link:hover:after {
+		-webkit-transform: skewX(0);
+		transform: skewX(0)
+	}
+	.call-box-inner {
+		width: 100%;
+		padding: 0 15px
+	}
+    .service-text h3{
+        font-size: 18px
+    }
+	.call-box h2 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	.single-footer {
+		margin: 20px 0
+	}
+	.copyright {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.footer-social ul {
+		text-align: center
+	}
+	.breadcromb-box h3 {
+		font-size: 30px
+	}
+	.about-page-left h3,
+	.about-promo-text h3 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	.about-page-right {
+		margin-top: 30px
+	}
+	.about-promo-text {
+		width: 100%
+	}
+	.service-details-right {
+		margin-top: 30px
+	}
+	.service-details-right h3,
+	.sidebar-widget h3 {
+		font-size: 22px;
+		line-height: 40px
+	}
+	.pad-right-sm {
+		padding-right: 15px
+	}
+	.pad-left-sm {
+		padding-left: 15px
+	}
+	.service-details-list ul {
+		width: 100%;
+		float: none;
+		margin: 0
+	}
+	.service-details-list.clearfix {
+		margin-top: 30px
+	}
+	.faq_accordian_header>a.collapsed:before {
+		width: 20%
+	}
+	.faq_accordian_header>a:before {
+		width: 20%
+	}
+	.car-listing-right {
+		margin-top: 30px
+	}
+	.propertu-page-shortby {
+		display: none
+	}
+	.car-booking-right {
+		margin-top: 30px
+	}
+	.car-booking-right h3,
+	.product-details-text h3 {
+		font-size: 28px;
+		line-height: 40px
+	}
+	.car-features ul {
+		width: 33%;
+	}
+	.booking-right {
+		margin-top: 30px
+	}
+	.product-page-right,
+	.product-details-text {
+		margin-top: 30px
+	}
+	.product-text h3 {
+		font-size: 21px
+	}
+	.single-shop-page-btn {
+		display: block
+	}
+	.single-shop-page-btn ul {
+		margin-left: 0;
+		margin-top: 20px
+	}
+	.order-summury-box {
+		margin-top: 30px
+	}
+	.checkout-action {
+		text-align: left
+	}
+	.blog-text {
+		padding: 15px 10px
+	}
+	.blog-text ul li {
+		margin-right: 5px
+	}
+	.blog-page-left .blog-text h3 {
+		font-size: 22px;
+		line-height: 36px
+	}
+	.blog-page-right {
+		margin-top: 30px
+	}
+	.single-comment-box.reply-comment {
+		padding-left: 30px
+	}
+	.gauto-leave-comment form input {
+		width: 100%;
+		margin-right: 0
+	}
+	.gauto-leave-comment form textarea {
+		width: 100%
+	}
+	.notfound-box {
+		width: 100%
+	}
+	.notfound-box h2 {
+		font-size: 70px;
+		line-height: 70px
+	}
+	.notfound-box h3 {
+		font-size: 22px
+	}
+	.single-testimonial {
+		padding: 20px
+	}
+	.client-info h3 {
+		font-size: 18px
+	}
+	.login-box {
+		width: 100%;
+		padding: 30px 15px
+	}
+	.contact-right {
+		margin-top: 30px
+	}
+	.newsletter_box form {
+		width: 100%
+	}
+	.cart-btn-pro-cont h4,
+	.cart-btn-pro-cont h4 a {
+		font-size: 15px
+	}
+	.cart-btn-pro-cont span.price {
+		font-size: 14px
+	}
+}
